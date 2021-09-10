@@ -10,6 +10,13 @@ site.ENABLE_USER_SITE = "--user" in sys.argv[1:]
 
 if __name__ == "__main__":
     setuptools.setup(
-        use_scm_version={"local_scheme": "no-local-version"},
-        setup_requires=["setuptools_scm[toml]>=3.5.0"],
+        name="molecule_vagrant",
+        version="0.6.3",
+        include_package_data=True,
+        packages=["molecule_vagrant"],
+        install_requires=[
+            "molecule>=3.2.0a0",
+            "pyyaml>=5.1,<6",
+            "selinux",
+        ],
     )
