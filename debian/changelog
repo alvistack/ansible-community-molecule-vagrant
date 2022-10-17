@@ -1,0 +1,5 @@
+python-molecule-vagrant (100:2.0.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/ansible-community/molecule-vagrant/releases/tag/2.0.0
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Sun, 25 Dec 2022 12:25:03 +0800

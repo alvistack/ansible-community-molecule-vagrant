@@ -1,0 +1,4 @@
+python3-molecule-vagrant: copyright-without-copyright-notice
+python3-molecule-vagrant: initial-upload-closes-no-bugs
+python3-molecule-vagrant: no-manual-page
+python3-molecule-vagrant: zero-byte-file-in-doc-directory
