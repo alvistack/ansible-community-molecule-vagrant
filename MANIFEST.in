@@ -3,3 +3,7 @@ include README.rst
 
 recursive-exclude * __pycache__
 recursive-exclude * *.py[co]
+
+recursive-include molecule_vagrant/cookiecutter **/*
+recursive-include molecule_vagrant/modules **/*
+recursive-include molecule_vagrant/playbooks **/*

@@ -1,0 +1,4 @@
+python-molecule-vagrant source: file-without-copyright-information
+python-molecule-vagrant source: no-debian-changes
+python-molecule-vagrant source: source-contains-prebuilt-windows-binary
+python-molecule-vagrant source: source-package-encodes-python-version
